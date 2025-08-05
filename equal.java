@@ -3,6 +3,6 @@ public class equal {
         String s = "sDFA";
         String f  = "sdfaf" ;
         String d = new String(s) ;
-        System.out.println(s == d );
+        System.out.println(s.equals(d));
     } 
 }
