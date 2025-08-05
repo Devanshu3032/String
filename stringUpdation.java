@@ -6,7 +6,7 @@ public class stringUpdation {
         String d = "Devsmshu";
         String s = "" ;
          int n = d.length() ;
-         for (int i = 1; i < d.length(); i++) {
+         for (int i = 0; i < d.length(); i++) {
             if(i%2 == 0){
                 s+= 'e' ;
             }
